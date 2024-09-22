@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suvam's Password Hide App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="input-box">
+      <input
+        type="password"
+        placeholder="Password"
+        id="password"
+        aria-label="Password" />
+      <img
+        src="eye-close.png"
+        alt="Show password"
+        id="eyeicon"
+        aria-label="Toggle password visibility" />
+    </div>
+    <div id="password-strength" class="password-strength">
+      Password Strength: <span id="strength-text">Weak</span>
+    </div>
+    <div class="info">
+      <p>Press <strong>Alt + P</strong> to toggle password visibility.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
